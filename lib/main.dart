@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'صل على سيدنا محمد',
+              'Mahmoud Azab',
               style: TextStyle(fontSize: 30, color: Colors.red),
             ),
           ],
