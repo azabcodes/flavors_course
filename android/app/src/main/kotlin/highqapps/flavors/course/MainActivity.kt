@@ -1,4 +1,4 @@
-package flavors.course.flavors_course
+package highqapps.flavors.course
 
 import io.flutter.embedding.android.FlutterActivity
 
