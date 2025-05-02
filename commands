@@ -1,0 +1,13 @@
+dart pub add dev:flutter_flavorizr:2.4.0
+flutter pub get
+
+
+dart run flutter_flavorizr
+
+
+git reset --hard HEAD && git clean -fd
+
+
+flutter pub run flutter_flavorizr -p <processor_1>,<processor_2>
+
+
