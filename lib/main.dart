@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: Text(
-          'Flavors Course',
+          'Mahmoud Azab',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Mahmoud Azab',
+              'Flavors Course',
               style: TextStyle(fontSize: 30, color: Colors.red),
             ),
           ],
