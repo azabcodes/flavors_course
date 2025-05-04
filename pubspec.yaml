@@ -30,3 +30,36 @@ flutter:
     - assets/android/
     - assets/common/
 
+
+
+
+flavorizr:
+  ide: "vscode"
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+
+  flavors:
+    dev:
+      app:
+        name: "Flavors Course Dev"
+      android:
+        applicationId: "highqapps.flavors.course.dev"
+      ios:
+        bundleId: "highqapps.flavors.course.dev"
+
+    stg:
+      app:
+        name: "Flavors Course Stg"
+      android:
+        applicationId: "highqapps.flavors.course.stg"
+      ios:
+        bundleId: "highqapps.flavors.course.stg"
+
+    prod:
+      app:
+        name: "Flavors Course"
+      android:
+        applicationId: "highqapps.flavors.course"
+      ios:
+        bundleId: "highqapps.flavors.course"
