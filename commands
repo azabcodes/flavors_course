@@ -2,6 +2,13 @@ dart pub add dev:flutter_flavorizr:2.4.0
 flutter pub get
 
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install ruby
+gem update --system
+gem install xcodeproj
+
+
+
 dart run flutter_flavorizr
 
 
