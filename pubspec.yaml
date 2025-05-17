@@ -27,8 +27,16 @@ flutter:
   uses-material-design: true
   generate: true
   assets:
-    - assets/android/
     - assets/common/
+    - path: assets/flavors/dev/
+      flavors:
+        - dev
+    - path: assets/flavors/prod/
+      flavors:
+        - prod
+    - path: assets/flavors/stg/
+      flavors:
+        - stg
 
 
 
@@ -45,21 +53,36 @@ flavorizr:
         name: "Flavors Course Dev"
       android:
         applicationId: "highqapps.flavors.course.dev"
+        icon: "assets/flavors/dev/app-icon.png"
+        adaptiveIcon:
+          foreground: "assets/flavors/dev/app-icon-foreground.png"
+          background: "assets/android/app-icon-background.png"
       ios:
         bundleId: "highqapps.flavors.course.dev"
+        icon: "assets/flavors/dev/app-icon.png"
 
     stg:
       app:
         name: "Flavors Course Stg"
       android:
         applicationId: "highqapps.flavors.course.stg"
+        icon: "assets/flavors/stg/app-icon.png"
+        adaptiveIcon:
+          foreground: "assets/flavors/stg/app-icon-foreground.png"
+          background: "assets/android/app-icon-background.png"
       ios:
         bundleId: "highqapps.flavors.course.stg"
+        icon: "assets/flavors/stg/app-icon.png"
 
     prod:
       app:
         name: "Flavors Course"
       android:
         applicationId: "highqapps.flavors.course"
+        icon: "assets/flavors/prod/app-icon.png"
+        adaptiveIcon:
+          foreground: "assets/flavors/prod/app-icon-foreground.png"
+          background: "assets/android/app-icon-background.png"
       ios:
         bundleId: "highqapps.flavors.course"
+        icon: "assets/flavors/prod/app-icon.png"
