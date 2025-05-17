@@ -20,7 +20,8 @@ dart run flutter_flavorizr -p <processor_1>,<processor_2>
 
 
 
-dart run flutter_flavorizr -p android:buildGradle,android:androidManifest
+dart run flutter_flavorizr -p android:buildGradle,android:flavorizrGradle,android:androidManifest
+
 dart run flutter_flavorizr -p android:icons
 
 dart run flutter_flavorizr -p android:buildGradle,android:androidManifest,android:icons
