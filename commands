@@ -24,9 +24,27 @@ dart run flutter_flavorizr -p android:buildGradle,android:flavorizrGradle,androi
 
 dart run flutter_flavorizr -p android:icons
 
-dart run flutter_flavorizr -p android:buildGradle,android:androidManifest,android:icons
+dart run flutter_flavorizr -p android:buildGradle,android:flavorizrGradle,android:androidManifest,android:icons
+
 
 
 flutter run --flavor dev
 flutter run --flavor stg
 flutter run --flavor prod
+
+
+dart run flutter_flavorizr -p assets:download,assets:extract,ios:podfile,ios:xcconfig,ios:buildTargets,ios:schema,ios:plist,ios:dummyAssets,assets:clean
+
+
+dart run flutter_flavorizr -p ios:icons
+
+
+dart run flutter_flavorizr -p assets:download,assets:extract,ios:podfile,ios:xcconfig,ios:buildTargets,ios:schema,ios:plist,ios:dummyAssets,ios:icons,assets:clean
+
+
+flutter run --flavor dev
+
+flutter run --flavor dev -t lib/main_dev.dart
+flutter run --flavor stg -t lib/main_stg.dart
+flutter run --flavor prod -t lib/main_prod.dart
+
